@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../proyectoFPGA_Daniela_Rodrigo_Keylor.srcs/sources_1/imports/FPGA/Contador2bits.vhd" \
+"../../../../proyectoFPGA_Daniela_Rodrigo_Keylor.srcs/sources_1/imports/FPGA/ContadorAnillo4bits.vhd" \
+"../../../../proyectoFPGA_Daniela_Rodrigo_Keylor.srcs/sources_1/imports/FPGA/Deco2a4.vhd" \
+"../../../../proyectoFPGA_Daniela_Rodrigo_Keylor.srcs/sources_1/new/carga_FF_D.vhd" \
+"../../../../proyectoFPGA_Daniela_Rodrigo_Keylor.srcs/sim_1/imports/FPGA/ContadorAnillo4bits_TB.vhd" \
+
+# Do not sort compile order
+nosort
